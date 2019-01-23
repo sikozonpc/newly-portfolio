@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+      <!--Font Awesome Icons -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/styles.css">
+  
+      <title>Tiago Taquelim | Web Developer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="topnav" class="navbar">
+            <ul>
+                <li id="home-li">
+                    <a class="active" href="#" id="home-btn">
+                        <i class="fas fa-home"> </i> 
+                        Home</a>
+                </li>
+                <li id="about-li">
+                    <a href="#about-me" id="about-btn">
+                        <i class="fas fa-info"></i> 
+                        About</a>
+                </li>
+                <li id="portfolio-li">
+                    <a href="#work" id="portfolio-btn">
+                        <i class="fas fa-file-code"></i> 
+                        Portfolio</a>
+                </li>
+                <li id="resume-li">
+                    <a href="#resume skills-sec" id="resume-btn">
+                        <i class="far fa-file"></i> 
+                        Resume</a>
+                </li>
+                
+                <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </div>
+
+        <div class="header" id="parallax" >
+            <h1>TIAGO TAQUELIM</h1>
+            <h2 id="second-title">-- THE STORY OF A  WEB DEVELOPER  --</h2>
+            <div class="author-img">
+                <i id="online-icon" class="fas fa-circle" style="color:rgb(33, 194, 33); "></i>
+                <img src="imgs/eu.jpg">
+            </div>
+            <div class="welcome">
+                <h3>Welcome to my place <i class="fas fa-globe-europe"></i> in the web</h3>
+                <hr style="width:40%;margin:auto;">
+                <p>I'm a Passionate, Self-taught <strong>Web Developer</strong></p>
+                <p>that loves to Build Web Applications</p>
+            </div>
+
+        </div>
+          
+        
+  
+        <section id="about-me" class="container">
+            <h2 class="title">ABOUT  ME</h2>
+            <hr>
+            <p> I Started coding when I was <strong>15 by curiosity</strong> and since then I've fallen in love with
+                    programming.</p>   
+            <p> I Begin my journey with <strong>Python</strong>, where I've developed <u>data-mining</u> projects
+                and even <u>a game</u>.</p>
+            <p> Later I was introduced to the <strong>.NET Framework</strong>, from which I learnt 
+                <u>Architectural Patterns </u>(MVC, MVVM), <u>back-end</u> and <u>databases</u>.</p>
+            <p>  And as of Today I work as a <strong style="color:#E2AA03;">Front-end developer</strong> while improving my craft
+                everyday .</p>
+        </section>
+
+        
+        <section id="work" class="container inverted">
+            <h2 class="title">Some of  my Work</h2>
+            <hr>
+            <p>Most of my work is open-sourced on <a href="https://github.com/sikozonpc" target="_blank" class="link-btn">GitHub</a> and <a class="link-btn" href="https://codepen.io/sikozonpc/" target="_blank">CodePen</a>.</p>
+            
+            <div id="projects-box">
+                <div class="project">
+                    <h3>Code Review - Social Network</h3>
+                    <a href="./html/project.html" >
+                        <img src="imgs/project-thumbnails/project3.jpeg" alt="Code Review - social network web app">
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam praesentium asperiores repudiandae optio perspiciatis pariatur, enim sed inventore dolorum.</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>PRIME (e-Commerce web app)</h3>
+                    <a href="./html/e-commerce.html" >
+                        <img src="imgs/project-thumbnails/project1.jpg" alt="e-commerce web app">
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam praesentium asperiores repudiandae optio perspiciatis pariatur, enim sed inventore dolorum.</p>
+                    </a>
+                </div>
+                <div class="project" >
+                        <h3>Music Band Landing Page</h3>
+                        <a href="./html/music-page.html">
+                            <img src="imgs/project-thumbnails/project2.jpeg" alt="music landing page website">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam praesentium asperiores repudiandae optio perspiciatis pariatur, enim sed inventore dolorum.</p>
+                        </a>
+                </div>
+                <div class="project">
+                    <h3>Pokedex</h3>
+                    <a href="#" >                       
+                        <img src="https://i.imgur.com/ay5vXJg.png" alt="pokedex app">
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam praesentium asperiores repudiandae optio perspiciatis pariatur, enim sed inventore dolorum.</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>My old website</h3>
+                    <a href="https://tiagotaquelim.netlify.com/">                       
+                        <img src="https://i.imgur.com/ApS5U3A.png" alt="my old website">
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam praesentium asperiores repudiandae optio perspiciatis pariatur, enim sed inventore dolorum.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume skills-sec" class="container">
+            <div id="skills">
+                <h2 class="title">Skillset</h2>
+                <hr>
+                <div class="list-skills">
+                        <div class="skill-div">
+                            <h4><i class="fas fa-code"></i> Front-End</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS & Sass</li>
+                                <lI>Bootstrap</lI>
+                                <li>React <i class="fab fa-react" style="color:rgb(78, 169, 255)"></i> / Redux</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="skill-div">
+                            <h4><i class="fab fa-connectdevelop"></i> Back-End</h4>
+                            <ul>
+                                <li > Node.JS</li>
+                                <li class="not-availabe">MongoDB</li>
+                                <li class="not-availabe">Express</li>
+                                <li>C#</li>
+                            </ul>
+                        </div>
+                        <div class="skill-div">
+                            <h4><i class="fas fa-tools"></i> Tools</h4>
+                            <ul>                            
+                                <li>Linux and Windows Terminals</li>
+                                <li>Visual Studio 2017/Code</li>
+                                <li>Git command line</li>
+                                <li>Adobe Xd CC</li>
+                            </ul>
+                        </div>
+                    </div>   
+            </div>
+        </section>
+
+        <section id="certefications" class="container inverted certefications">
+            <div >
+                <h2 class="title">Certefications</h2>
+                <hr style="width:40%; margin-bottom: 40px;">
+
+                <p>Most of the knowledge I have from software engineering is from the process of building applicatons. However I 
+                    have dedicated a lot of time to Courses and so I've gotten some certificates.
+                </p>
+                <p style="margin-bottom: 60px;">Altought building software is the fun part, I think it needs to be well built and improved.</p>
+
+                <ul class="list-certefications"></ul>
+                    <li class="certefication">
+                        <h4>Responsive Web Design (freeCodeCamp)</h4>
+                        <p>Developer Certification, representing approximately 300 hours of coursework</p>
+                        <a href="https://www.freecodecamp.org/certification/taquelim/responsive-web-design" class="btn" target="_blank">View</a>
+                        
+                    </li>
+                    <li class="certefication">
+                        <h4>JavaScript Algorithms and Data Structures (freeCodeCamp)</h4>
+                        <p>Developer Certification, representing approximately 300 hours of coursework</p>
+                        <a href="https://www.freecodecamp.org/certification/taquelim/javascript-algorithms-and-data-structures" class="btn" target="_blank">View</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+  
+        <div class="image2">
+            <a href="#" class="btn"><i style="color: whitesmoke" class="far fa-file"></i> View Resume</a>
+        </div>
+
+        <footer class="container">
+            <p id="int-work">Interested in <em>working together</em>? Hit me up with an email ✉</p>
+            <a class="btn" href="mailto:tiago.taquelim.ferreira@gmail.com">write email</a>
+            <hr style="margin:auto;width:40%; margin-bottom: 40px;margin-top:20px;">
+
+            <p>Handcrafted with love <i style="color:red;">♥</i> by me <a href="https://twitter.com/tiago_taquelim" target="_blank">@tiago_taquelim</a></p>
+            <ul>
+                <li><a href="https://github.com/sikozonpc" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://twitter.com/tiago_taquelim" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tiago-ferreira-20701a138/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://codepen.io/sikozonpc/" target="_blank"><i class="fab fa-codepen"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    
+    <!-- Javascript at the bottom for performance gain -->
+    <script src="./js/main.js"></script>
+    <script src="./js/navbar.js"></script>
+</body>
+</html>
