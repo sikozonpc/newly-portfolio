@@ -2,10 +2,11 @@
 when the user clicks on the icon */
 function toggleNavbar() {
     var x = document.getElementById("topnav");
-    if (x.className === "navbar") {
-      x.className += " responsive";
+    console.log(x.className)
+    if (x.className === "navbar sticky") {
+      x.classList.add("responsive");
     } else {
-      x.className = "navbar";
+      x.className = "navbar sticky";
     }
   }
 

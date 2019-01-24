@@ -474,8 +474,8 @@ footer a {
     .navbar.responsive {position: fixed;}
     .navbar.responsive .icon {
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 3px;
+        top: 30px;
 
     }
     .navbar.responsive ul {
@@ -485,6 +485,8 @@ footer a {
         float: none;
         display: block;
         text-align: left;
+        padding-top: 10px;
+        
     }
 
     .container {
@@ -514,7 +516,7 @@ footer a {
         flex-flow: column wrap;
     }
     .project img {
-        width: 150px;
+        width: 250px;
         height: 150px;
     }
 
