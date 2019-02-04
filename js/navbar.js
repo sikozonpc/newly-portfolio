@@ -16,9 +16,7 @@ window.onscroll = function() {
   
   prevScrollpos = currentScrollPos;
 
-
   scrollSticky()
-
 
   // Mark the navbar buttons on the right page section
   // <!-- Home -->
