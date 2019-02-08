@@ -13,3 +13,7 @@ var prevScrollpos = window.pageYOffset;
 
 
 
+const closePopUp = (e) => {
+    let popup = document.getElementById("popup");
+    popup.remove();
+}

@@ -39,6 +39,41 @@ hr {
 }
 
 /* TODO: Apply to all of the sections */
+
+.message {
+    position: fixed;
+    z-index: 15;
+    top: 100px;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px #ccc;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 2s ease-out linear;
+}
+.popup {
+    position: relative;
+    color: #222;
+    font-weight: bold;
+}
+.popup:before {
+    content: "";
+    position: absolute;
+    border-left: 3px solid red;   
+    bottom: -33px;
+    left: -11px;
+    height: 102px; 
+}
+.popup:after {
+    content: "x";
+    position: absolute;
+    top:-30px;
+    right:0;
+    color: red;
+}
+
 .container {
     box-sizing: border-box;
     
