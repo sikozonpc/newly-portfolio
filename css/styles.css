@@ -50,6 +50,7 @@ hr {
     padding: 10px;
     text-decoration: none;
     cursor: pointer;
+    font-family: monospace;
 
     transition: 2s ease-out linear;
 }
@@ -62,9 +63,9 @@ hr {
     content: "";
     position: absolute;
     border-left: 3px solid red;   
-    bottom: -33px;
+    bottom: -30px;
     left: -11px;
-    height: 102px; 
+    height: 88px; 
 }
 .popup:after {
     content: "x";
@@ -72,6 +73,7 @@ hr {
     top:-30px;
     right:0;
     color: red;
+    font-size: 2em;
 }
 
 .container {
